@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+}
+a{
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: red;
+    list-style-type:none;
+    text-decoration:none;
+    background-color: black;
+    border-radius: 110px;
+    box-shadow: 5px 5px 5px black;
+}
+p{
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    font-weight:bolder;
+    font-style: italic;
+    font-family:'Courier New', Courier, monospace;
+}
+body{
+    background-image:url(backgroundbody.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    border: 2px solid black;
+}
+#cabecalho{
+    background-color: black;
+    height: 150px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+#centro{
+    padding-top: 20px;
+    height: 650px;
+    display:flex;
+    justify-content:space-evenly;
+    
+}
+li{
+    padding: 15px;
+    color: yellow;
+    font-size: 15px;
+    font-weight:bolder;
+    display: flex;
+    align-items:center;
+    justify-content: space-evenly;
+}
+#caixadireita{
+    background-color:black;
+}
+#caixacentro{
+    background-color:black;
+}
+#caixaesquerda{
+    background-color: black;
+}
+#rodape{
+    height: 110px;
+    background-color: black;
+}
+.box{
+    width: 30%;
+    height: 500px;
+    border: 2px solid red;
+}
